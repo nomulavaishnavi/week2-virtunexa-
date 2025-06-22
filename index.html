@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Decision Tree Navigator</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container" role="main" aria-label="Decision Tree Navigator">
+    <h1>Decision Tree Navigator</h1>
+    <section id="tree-container" aria-live="polite" aria-atomic="true">
+      <!-- Question and options will be dynamically inserted here -->
+    </section>
+    <nav aria-label="Navigation controls">
+      <button id="prevBtn" disabled>← Previous</button>
+      <button id="restartBtn">Restart</button>
+    </nav>
+    <footer>
+      <p>Made for troubleshooting and learning.</p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
